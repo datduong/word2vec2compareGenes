@@ -4,5 +4,5 @@ Train word2vec on Pubmed data. Word2vec model converts a word into a vector, so 
 The entire trained model is here https://drive.google.com/open?id=0BzSj4Ecl_7R8T1VJTlhfR09wdlE
 
 This link above also contains a simple Python interface. Please read the Readme.txt in that link. 
-The trained model require Python library "gensim".
+To view the trained model, you must use Python library "gensim".
 
