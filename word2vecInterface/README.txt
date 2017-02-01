@@ -8,3 +8,6 @@ Enter command line in your terminal, go inside the folder "w2vPubMedv1".
 Type: "python compare2Sentences.py" to enter the program. This will compare 2 sentences. 
 
 Type: "python compare2GOtermsInterface.py" to enter the program to compare 2 GO terms. 
+
+
+
