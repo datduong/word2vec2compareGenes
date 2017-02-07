@@ -1,4 +1,6 @@
 
+Download all the files from this Google drive https://drive.google.com/open?id=0BzSj4Ecl_7R8T1VJTlhfR09wdlE into the same folder. This folder should have the default name "w2vPubMedv1". 
+
 If you do not have anaconda for python installed, then install anaconda at https://www.continuum.io/downloads. Anaconda provides a nice python user interface, and comes equipped with useful libraries such as NumPy SciPy etc. 
  
 If you do not have 'gensim' installed, then go to the command line, and install gensim for python. Use: "easy_install gensim" or "pip install --user gensim" (without the quotation marks). 
