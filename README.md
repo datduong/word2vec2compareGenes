@@ -1,5 +1,16 @@
 # word2vec2compareGenes
-Train word2vec on Pubmed data. Word2vec model converts a word into a vector, so that one can quantify how similar are two words. I then use this model to compare 2 sentences, 2 GO terms, and 2 genes. 
+
+This is the paper you should read before using the code. http://biorxiv.org/content/early/2017/01/28/103648.
+
+In this project, I train word2vec on Pubmed data. Word2vec model converts a word into a vector, so that one can quantify how similar are two words. I then use this model to compare 2 sentences, 2 GO terms, and 2 genes. 
+
+What are GO terms? 
+GO terms are "gene ontology" term. Each term describes a biology feature. For example: term xyz describes "cell division". 
+
+How do GO terms relate to a gene? 
+A gene is described by many GO terms. Thus, given a gene and its set of GO terms, one can guess the gene's function in the cell. 
+
+Comparing 2 genes is pretty much equivalent to comparing 2 sets of GO terms. 
 
 In the folder "word2vecInterface" in this github repository, you will see all the source code. However, the trained data is too big. 
 The entire trained model (along with any source code) is here https://drive.google.com/open?id=0BzSj4Ecl_7R8T1VJTlhfR09wdlE
