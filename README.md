@@ -17,3 +17,6 @@ The entire trained model (along with any source code) is here https://drive.goog
 
 This link above also contains a simple Python interface. Please read the Readme.txt in that link. You will need to download all the files in that link into the same folder.
 To view the trained model, you must install the Python library "gensim".
+
+The screenshot of the interface looks like this: 
+![alt tag](https://github.com/datduong/word2vec2compareGenes/blob/master/instruction1.png)
