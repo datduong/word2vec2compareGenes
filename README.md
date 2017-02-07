@@ -20,3 +20,5 @@ To view the trained model, you must install the Python library "gensim".
 
 The screenshot of the interface looks like this: 
 ![alt tag](https://github.com/datduong/word2vec2compareGenes/blob/master/instruction1.png)
+
+If you have a lot of GO terms that needs to be compared, then the interface is not too useful for obvious reasons. In this case, you can modify the source code "compare2GOtermsInterface.py"; for example, you can use 2 for-loops when comparing many GO terms. 
