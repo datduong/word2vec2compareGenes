@@ -28,9 +28,8 @@ If you have a lot of GO terms that need to be compared, then the interface is no
 
 You can use
 
-model = gensim.models.Word2Vec.load("modelWord2Vec")
-
+import gensim
+model = gensim.models.Word2Vec.load("modelWord2Vec") # you need to download the modelWord2Vec data from the google drive. 
 bigram = gensim.models.phrases.Phraser.load(
 'bigram.data')
-
 trigram = gensim.models.phrases.Phraser.load('trigram.data')
