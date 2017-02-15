@@ -24,11 +24,11 @@ The screenshot of the interface looks like this:
 If you have a lot of GO terms that need to be compared, then the interface is not too useful for obvious reasons. In this case, you can modify the source code "compare2GOtermsInterface.py"; for example, you can use 2 for-loops when comparing many GO terms. 
 
 
----- loading the trained word2vec model on Pubmed data ---- You can use
+---- loading the trained word2vec model on Pubmed data in Python---- You can use
 ```
 import gensim
 model = gensim.models.Word2Vec.load("modelWord2Vec") # you need to download the modelWord2Vec data from the google drive. 
-bigram = gensim.models.phrases.Phraser.load(
-'bigram.data')
-trigram = gensim.models.phrases.Phraser.load('trigram.data')
+model['dna'] 
+model['rna'] 
 ```
+Visit http://radimrehurek.com/gensim/models/word2vec.html for more instruction on how to use gensim. 
