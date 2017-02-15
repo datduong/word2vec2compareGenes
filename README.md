@@ -30,5 +30,6 @@ import gensim
 model = gensim.models.Word2Vec.load("modelWord2Vec") # you need to download the modelWord2Vec data from the google drive. 
 model['dna'] 
 model['rna'] 
+model['mitosis']
 ```
 Visit http://radimrehurek.com/gensim/models/word2vec.html for more instruction on how to use gensim. 
