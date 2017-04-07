@@ -8,10 +8,12 @@ import subprocess
 from subprocess import Popen, PIPE
 import numpy as np
 import cPickle
+''' 
 import nltk
 from nltk.corpus import stopwords
 from nltk.probability import FreqDist
 from nltk import word_tokenize
+'''
 import string 
 import re 
 
