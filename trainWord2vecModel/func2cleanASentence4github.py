@@ -8,12 +8,10 @@ import subprocess
 from subprocess import Popen, PIPE
 import numpy as np
 import cPickle
-''' 
 import nltk
 from nltk.corpus import stopwords
 from nltk.probability import FreqDist
 from nltk import word_tokenize
-'''
 import string 
 import re 
 
@@ -50,6 +48,7 @@ def removeArrowBrackets (textInFile):
 
 def cleanSentencesInFile (textInFile,removeLongWordsFlag,splitSentencesFlag): ## textInFile: is a string like 'abcdef' 
 
+	textInFile = re.sub(r"\n"," ",textInFile)
 	stripped = lambda s: "".join(i for i in s if 31 < ord(i) < 127) ## remove \n\r\some_character 
 	textInFile = stripped(textInFile)	
 	textInFile = textInFile.lower() ## convert to lower 
